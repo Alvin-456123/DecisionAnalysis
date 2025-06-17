@@ -6,7 +6,7 @@
 ### Engineering – Equipment selection, material comparison.
 ### Education – University rankings, scholarship evaluations.
 ### Healthcare – Choosing treatment plans or diagnostic tools.
-
+---
 # Unit 2B: SAW Method – Advanced Applications
 ### In advanced contexts, SAW is used in combination with other methods or in complex decision environments:
 ### Fuzzy SAW – Incorporates uncertainty using fuzzy logic.
