@@ -1,4 +1,4 @@
-## 📌 Question 1: What is Decision Analysis & Why is it Important?
+##  Question 1: What is Decision Analysis & Why is it Important?
 
 **Decision Analysis** is a way to help us make smart choices when we have many options. It’s useful in business, tech, and even daily life because it helps reduce risks and leads to better decisions.
 
@@ -7,7 +7,7 @@ My friend had to choose a school for exchange. He listed out things like tuition
 
 ---
 
-## 📌 Question 2: Comparing Decision-Making Methods
+##  Question 2: Comparing Decision-Making Methods
 
 Let’s compare **SAW (Simple Additive Weighting)** and **TOPSIS**:
 
@@ -22,7 +22,7 @@ I’d say **TOPSIS** is better for ranking investments, because it looks at how 
 
 ---
 
-## 📌 Question 3: How Criteria Choices Affect the Outcome
+##  Question 3: How Criteria Choices Affect the Outcome
 
 The criteria and weights we choose really matter. If we leave out something important or give the wrong weight, we might make a bad decision.
 
