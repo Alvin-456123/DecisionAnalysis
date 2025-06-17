@@ -1,0 +1,25 @@
+import numpy as np
+
+# 決策矩陣：每列代表一個選項，每欄代表一個評估指標
+# 假設有 3 個選項和 4 個指標
+decision_matrix = np.array([
+    [7, 9, 8, 6],  # 選項 1
+    [8, 7, 9, 5],  # 選項 2
+    [6, 8, 7, 7]   # 選項 3
+])
+
+# 指標權重：每個指標的重要性，權重總和應為 1
+weights = np.array([0.4, 0.3, 0.2, 0.1])
+
+# 步驟 1：正規化決策矩陣
+# 假設所有指標為「效益型」，即數值越大越好
+normalized_matrix = decision_matrix / decision_matrix.max(axis=0)
+
+# 步驟 2：計算加權總和
+weighted_sum = np.dot(normalized_matrix, weights)
+
+# 步驟 3：選擇最佳選項
+best_option = np.argmax(weighted_sum)
+
+print("各選項加權總和：", weighted_sum)
+print("最佳選項為：選項", best_option + 1)
